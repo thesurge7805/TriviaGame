@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="maintitle">Chicago Trivia!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 ">
+                <button type="button" class="btn btn-primary btn-lg btn-block" id="start">Start</button>
+            </div>
+            <div class="col-lg-4 col-lg-offset-4 text-center">
+                <p id="time">Time Remaining:<span id="timer"></span></p>
+            </div>
+        </div>
+
+        <div class="form-group text-center">
+            <p>1. What is the tallest building in the city?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="correct">Sears Tower
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Hancock Building
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Wrigley Building
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">The Bean
+                </label>
+            </form>
+
+            <p>2. When was the city of Chicago Founded?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">1993
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">1840
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="correct">1833
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">1918
+                </label>
+            </form>
+
+            <p>3. What is a common nickname for Chicago?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Fart City
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">The City of Love
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">New York #2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="correct">The Second City
+                </label>
+            </form>
+
+            <p>4. Which one of these teams play in the city of Chicago?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> The White Sox
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">The Pigeons
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">The Rhino Poachers
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">The Mumford and Sons
+                </label>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <button type="button" class="btn btn-primary btn-lg btn-block" id="done">DONE</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+
+</html>
+
+ 
+
+<!-- I was able to complete this assignment with a lot of help from my tuturing session. 
+I am able to understand most of the Javascript portion of this assignment, however I still
+have difficulty actually implementing that knowledge on my own. I also realized that I am rusty with CSS
+due to the long break, I need to refresh my knowledge on that and bootstrap as well. -->
